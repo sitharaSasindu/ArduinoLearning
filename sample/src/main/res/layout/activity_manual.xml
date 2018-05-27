@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.aduino.propertyofss.arduinolearning.VIew.Manual"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="@drawable/gradientbackground"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="45dp"
+                    app:srcCompat="@drawable/manual1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Manual"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="21dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.   How to connect device with the app"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. Turn on Bluetooth in your smartphone"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="35dp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b. Switch on the device"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c. Search through the app and connect with the device"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="61dp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.   What does Build do?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="96dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="195dp"
+                    android:layout_marginTop="5dp"
+                    android:text="This is the main part of this application. There are some actions and Time laps in the left column. You can drag and drop those actions to the right side column. You can repeat the same actions in this. After you drag and drop the functions you can arrange those things as you like. After arranging you need to press the RUN button. After pressing the RUN button device do those actions and you can learn the code from the app too."
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="39dp"
+                    tools:layout_editor_absoluteY="122dp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.   What does Remote do?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="262dp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inside Remote there are some main actions that device can do. You can  manually remote the device. You need to keep pressing the button to perform the action. There are 4 actions,"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="281dp" />
+
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a.   Forward"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"                       tools:layout_editor_absoluteX="102dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b. Backward"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"                       tools:layout_editor_absoluteX="102dp"
+                    tools:layout_editor_absoluteY="333dp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c. Right"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"                       tools:layout_editor_absoluteX="102dp"
+                    tools:layout_editor_absoluteY="346dp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" d. Left"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"                       tools:layout_editor_absoluteX="100dp"
+                    tools:layout_editor_absoluteY="359dp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="And there is a ON/OFF button called Object detection."
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"                       tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="372dp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.   What does Object Detection Button do?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="404dp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="316dp"
+                    android:layout_height="135dp"
+                    android:layout_marginTop="5dp"
+                    android:text="When you activate the Object detection button you’re unable to control the device and it goes automatically forward and the device identify the obstacles and avoid them. You need to OFF the object detection button to make the device manual again."
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="423dp" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="329dp"
+                    android:layout_height="205dp"
+                    android:text="This is the main part of this application. There are some actions and Time laps in the left column. You can drag and drop those actions to the right side column. You can repeat the same actions in this. After you drag and drop the functions you can arrange those things as you like. After arranging you need to press the RUN button. After pressing the RUN button device do those actions and you can learn the code from the app too."
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="40dp"
+                    tools:layout_editor_absoluteX="39dp"
+                    tools:layout_editor_absoluteY="122dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

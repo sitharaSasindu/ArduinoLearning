@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context="com.arduino.propertyofss.arduinolearning.draglistview.sample.InitialView">
+
+    <Button
+        android:id="@+id/build"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+
+        android:layout_alignBaseline="@+id/remote"
+        android:layout_alignBottom="@+id/remote"
+        android:layout_alignStart="@+id/manual"
+        android:background="@null"
+        android:drawableTop="@drawable/i5"
+        android:text="BUILD"
+        android:onClick="Build"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="30dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/remote"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignBaseline="@+id/bluetoothConnect"
+        android:layout_alignBottom="@+id/bluetoothConnect"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:drawableTop="@drawable/i6"
+        android:text="REMOTE"
+        android:onClick="Remote"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="25dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/contactUs"
+        android:background="@null"
+        android:drawableTop="@drawable/i3"
+        android:onClick="AboutUs"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="20dp"
+        android:textSize="16dp"
+        android:text="ABOUT US"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/bluetoothConnect"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/aboutus"
+        android:layout_alignStart="@+id/aboutus"
+        android:layout_marginBottom="15dp"
+        android:background="@null"
+        android:drawableTop="@drawable/i4"
+        android:text="BLUETOOTH"
+        android:onClick="Bluetooth"
+        android:paddingTop="25dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/manual"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="1dp"
+        android:layout_alignTop="@+id/contactUs"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/contactUs"
+        android:background="@null"
+        android:drawableTop="@drawable/i1"
+        android:text="MANUAL"
+        android:onClick="Manual"
+        android:paddingTop="20dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/contactUs"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/remote"
+        android:layout_below="@+id/bluetoothConnect"
+        android:background="@null"
+        android:drawableTop="@drawable/i2"
+        android:text="CONTACT"
+        android:onClick="ContactUs"
+        android:paddingTop="19dp"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arduino.propertyofss.arduinolearning.draglistview.sample">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/android_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:hardwareAccelerated="false"
+            android:label="ArduinoLearning"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".InitialView"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Bluetooth" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Manual" />
+        <activity android:name=".Remote" />
+        <activity android:name=".SelectModel"></activity>
+    </application>
+
+</manifest>

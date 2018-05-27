@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arduino.propertyofss.arduinolearning.draglistview.sample.Remote">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gradientbackground"
+            android:textColor="@color/white"
+            android:layout_marginTop="27dp"
+            android:text="Forward" />
+
+        <Button
+            android:id="@+id/backward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/gradientbackground"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:text="Backward" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/left"
+            android:background="@drawable/gradientbackground"
+            android:textColor="@color/white"
+            android:layout_alignBottom="@+id/left"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/backward"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView"
+            android:background="@drawable/gradientbackground"
+            android:textColor="@color/white"
+            android:layout_below="@+id/forward"
+            android:layout_marginTop="47dp"
+            android:layout_weight="1"
+            android:text="Left" />
+
+        <ToggleButton
+            android:id="@+id/objDetector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/backward"
+            android:layout_below="@+id/backward"
+            android:background="@drawable/gradientgrey"
+            android:textColor="@color/black"
+            android:layout_marginTop="79dp"
+            android:text="ToggleButton"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/objDetector"
+            android:layout_alignBottom="@+id/objDetector"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_toStartOf="@+id/backward"
+            android:layout_marginRight="10dp"
+            android:text="Object Detection" />
+
+    </RelativeLayout>
+
+</LinearLayout>
